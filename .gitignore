@@ -1,0 +1,25 @@
+## [Visual Studio]
+# Các thư mục chứa file đã build (User sẽ tự build lại, không nên up lên)
+[Bb]in/
+[Oo]bj/
+
+# Các file lưu cấu hình cá nhân của người code (như vị trí cửa sổ, các file đang mở)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Các file sinh ra khi Debug (không cần thiết trên Git)
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.cache
+*.log
+
+## [Hệ điều hành]
+# File rác của Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
