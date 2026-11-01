@@ -49,7 +49,7 @@
             this.groupBox1.Size = new System.Drawing.Size(409, 65);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
+            //
             // lbltitle
             // 
             this.lbltitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -62,9 +62,9 @@
             this.lbltitle.TabIndex = 0;
             this.lbltitle.Text = "label1";
             this.lbltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
+            //
             // groupBox2
-            // 
+            //
             this.groupBox2.Controls.Add(this.lblClock);
             this.groupBox2.Controls.Add(this.lblStatus);
             this.groupBox2.Controls.Add(this.btnexcute);
@@ -73,9 +73,9 @@
             this.groupBox2.Size = new System.Drawing.Size(409, 120);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            // 
+            //
             // lblStatus
-            // 
+            //
             this.lblStatus.AutoSize = true;
             this.lblStatus.ForeColor = System.Drawing.Color.Gray;
             this.lblStatus.Location = new System.Drawing.Point(12, 60);
@@ -83,7 +83,7 @@
             this.lblStatus.Size = new System.Drawing.Size(61, 13);
             this.lblStatus.TabIndex = 1;
             this.lblStatus.Text = "Checking...";
-            // 
+            //
             // btnexcute
             // 
             this.btnexcute.Location = new System.Drawing.Point(159, 42);
@@ -93,22 +93,22 @@
             this.btnexcute.Text = "DO";
             this.btnexcute.UseVisualStyleBackColor = true;
             this.btnexcute.Click += new System.EventHandler(this.btnexcute_Click);
-            // 
+            //
             // timer1
-            // 
+            //
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
+            //
             // lblClock
-            // 
+            //
             this.lblClock.AutoSize = true;
             this.lblClock.Location = new System.Drawing.Point(226, 60);
             this.lblClock.Name = "lblClock";
             this.lblClock.Size = new System.Drawing.Size(35, 13);
             this.lblClock.TabIndex = 2;
             this.lblClock.Text = "label1";
-            // 
+            //
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
